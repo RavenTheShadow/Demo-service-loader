@@ -4,5 +4,8 @@ public class Main {
         Context context = new Context();
         ServiceA serviceA = (ServiceA) context.getService("ServiceA");
         serviceA.doSomething();
+
+        ServiceA serviceA2 = new ServiceA();
+        serviceA2.doSomething();
     }
 }
